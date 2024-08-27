@@ -1,0 +1,143 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: century;
+}
+
+header{
+background-image: url("https://www.thoughtco.com/thmb/l0Ei2qSYEp6vtU6a1o0FtphhV4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SaharaDesert-58c1a5603df78c353c3d525d.jpg");
+display: flex;
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+ul{
+/* float: right; */
+/* margin-top: 40px;
+right: 60px; */
+display: flex;
+padding-block: 1rem;
+padding-inline:3rem ;
+height: 80px;
+align-items: center;
+justify-content: flex-end;
+}
+
+li{display: inline-block;}
+
+ul li a{
+text-decoration: none;
+color: white;
+padding: 5px 25px;
+border: 2px solid transparent;
+transition: 0.5s ease-in;
+text-transform: uppercase;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.meta{
+display: flex;
+/* background: red; */
+}
+
+#search-btn{
+
+    text-decoration: none;
+
+  
+    padding: 5px 25px;
+    border: 1px solid black;
+    transition: 0.5s ease-in;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+}
+
+#search-btn:hover{background-color: white;
+    color: black;
+
+}
+
+
+.cool{
+
+display: flex;
+
+align-items: center;
+justify-content:center;
+flex-wrap: wrap;
+gap: 1.4rem;
+/* background-color: blue; */
+width: 50%;
+}
+.box{
+    width: 50%;
+   color: white;
+   font-size: medium;
+   text-transform: uppercase;
+   width: 200px;
+   height: 200px;
+   background-size:100% 100%;
+   background-repeat: no-repeat;
+   border: 2px solid transparent;
+}
+
+.box:hover{
+border-color: white;
+cursor: pointer;
+}
+.sea{
+    width: 50%;
+    padding: 2rem;
+    padding-left: 4rem;
+    color: white;
+    font-size: larger;
+}
+#box1{text-decoration: none;
+    
+    transition: 0.5s ease-in;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+  border: 2px solid black;
+}
+.box1:hover{background-color: white;}
+#box2{
+   
+    background-image: url("https://travelhouseofegypt.com/storage/app/uploads/public/597/1c7/cb0/5971c7cb03ee4137674106.jpg");
+    
+   
+    
+}
+#box3{
+
+
+    background-image: url(https://i.ytimg.com/vi/X57Lx9GllRg/maxresdefault.jpg);
+ 
+}
+
+#box4{
+
+background-image: url(https://discoveringegypt.com/wp-content/uploads/2014/07/Giza6.jpg);
+
+}
+
+#box5{
+background-image: url(https://cloudfront.safaribookings.com/blog/2018/07/03_Kalahari_Desert_Facts-800px.jpg);
+
+
+
+}
+
+#icon{
+    width: 80px;
+    height: 80px;
+background-image: url("https://i.pinimg.com/originals/2f/e5/73/2fe573783fa789f599f2df7207be42bc.png");    
+background-size: 100% 100%;
+
+}

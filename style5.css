@@ -1,0 +1,24 @@
+#loader{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 2px solid blue;
+border-top: 2px solid yellow;
+animation: spinanimation 3s steps(5) 1.5s infinite;
+
+}
+
+
+@keyframes spinanimation{
+from {
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+
+}
+
+
+}
+
+

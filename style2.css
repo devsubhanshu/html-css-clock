@@ -1,0 +1,54 @@
+
+ #dil{
+background-color: black;
+border: 5px solid rheightgb(255, 255, 255);
+padding: 1rem;
+ }
+
+
+ 
+span{
+    color: white;
+    margin-right: 30px;
+   padding: 25px ;
+
+ }
+
+
+ #fav{
+  float:right  ;
+
+
+
+ }
+ 
+
+ #fav div{
+    float: left;
+    
+ }
+
+
+ #search-btn {
+  background-color: yellow;
+
+ }
+
+
+ .contentbox1,.contentbox2, .contentbox3{
+  height: 100px;
+  width: 100px;
+  border: 6px  solid black;
+  display: inline-block;
+  margin: 25px;
+  padding: 25px;
+  }
+  .contentbox1{
+background-color: rgba(225, 0, 0, 0.5)
+  }
+ .contentbox2{
+background-color:rgba(19, 0, 225, 0.5);
+ }
+ .contentbox3{
+   background-color: rgba(19, 225, 0, 0.5)
+ }

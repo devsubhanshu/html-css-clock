@@ -1,0 +1,117 @@
+li{
+height: 50px;
+width: 50px;
+border: 2px black solid;
+display: inline-block;
+}
+
+ul{
+display: flex;
+height: 300px;
+width: 300px;
+border: 2px black solid;
+}
+
+.flexbox{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+justify-content: center;
+align-items: center;
+}
+
+#box1{
+  height: 30px;
+  width: 30px;
+  border: 2px black solid;
+
+}
+
+#box2{
+height: 50px;
+width: 50px;
+border: 2px black solid;
+background-color: palevioletred;
+}
+
+@media (max-width:300px) 
+ {
+#box2{
+    background-color: green;
+}
+
+
+ }
+
+#box{
+height: 100px;
+width: 100px;
+background: red;
+border: 2px solid black;
+ transition-property: all;
+ transition-duration: 5s;
+ transition-timing-function: linear;
+ transition-delay: 20ms;
+position: absolute;
+top: 100px;
+left: 100px;
+
+}
+
+
+#box:hover{
+background-color: blue;
+font-size: larger;
+color: white;
+transform: translate(100px,80px);
+
+}
+
+#box:active{
+  background-color: yellow;
+  color: white;
+}
+
+
+
+
+
+
+#box8{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 2px black solid;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  animation-name: coloranimate;
+  animation-duration: 3s; 
+ /* animation-timing-function: ease-in; */
+  animation-delay: 1s;
+  animation-iteration-count: 5;
+  animation-direction: normal;
+  }
+
+
+
+  @keyframes coloranimate{
+    0%{
+       background-color: blue;
+    }
+    50%{background-color: aquamarine;
+
+
+    }
+    100%{background-color: yellow;
+         left: 500px;
+    }
+  }
+     
+      
+     
+
+  
+
+  
